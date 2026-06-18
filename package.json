@@ -1,0 +1,70 @@
+{
+  "name": "tree-sitter-nvmrc",
+  "version": "0.0.0",
+  "description": "nvmrc grammar for tree-sitter",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rishvic/tree-sitter-nvmrc.git"
+  },
+  "funding": "",
+  "license": "MIT",
+  "author": {
+    "name": "Rishvic Pushpakaran",
+    "email": "rishvic@gmail.com",
+    "url": ""
+  },
+  "main": "bindings/node",
+  "types": "bindings/node",
+  "keywords": [
+    "incremental",
+    "parsing",
+    "tree-sitter",
+    "nvmrc"
+  ],
+  "files": [
+    "THIRD-PARTY-NOTICES.txt",
+    "CHANGELOG.md",
+    "grammar.js",
+    "tree-sitter.json",
+    "binding.gyp",
+    "prebuilds/**",
+    "bindings/node/*",
+    "queries/*",
+    "src/**",
+    "*.wasm"
+  ],
+  "dependencies": {
+    "node-addon-api": "^8.5.0",
+    "node-gyp-build": "^4.8.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.5.0",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.6.0",
+    "prebuildify": "^6.0.1",
+    "prettier": "3.8.4",
+    "prettier-plugin-toml": "^2.0.6",
+    "tree-sitter": "0.25.0",
+    "tree-sitter-cli": "0.26.9"
+  },
+  "peerDependencies": {
+    "tree-sitter": "^0.25.0"
+  },
+  "peerDependenciesMeta": {
+    "tree-sitter": {
+      "optional": true
+    }
+  },
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "install": "node-gyp-build",
+    "lint": "eslint",
+    "prestart": "tree-sitter build --wasm",
+    "start": "tree-sitter playground",
+    "test": "node --test bindings/node/*_test.js"
+  },
+  "packageManager": "pnpm@11.7.0+sha512.19cc852c120c7125760f2443ee6be0ca5b40f9f50598de1a09a1f177503e010e57c23c77646e01e761de59bf874fb22a3398c33ab9691fc13eb946b6f0f4d620"
+}

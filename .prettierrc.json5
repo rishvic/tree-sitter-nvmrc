@@ -1,0 +1,9 @@
+// SPDX-FileCopyrightText: 2026 Rishvic Pushpakaran
+//
+// SPDX-License-Identifier: MIT
+
+{
+  arrowParens: "avoid",
+  proseWrap: "always",
+  plugins: ["prettier-plugin-toml"],
+}

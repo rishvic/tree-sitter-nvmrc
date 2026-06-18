@@ -1,0 +1,7 @@
+# SPDX-FileCopyrightText: 2026 Rishvic Pushpakaran
+#
+# SPDX-License-Identifier: MIT
+
+allowBuilds:
+  tree-sitter: true
+  tree-sitter-cli: true

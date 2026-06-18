@@ -1,0 +1,64 @@
+version = 1
+
+[[annotations]]
+path = [
+  # C bindings
+  "bindings/c/**",
+  "CMakeLists.txt",
+  "Makefile",
+
+  # Rust bindings
+  "bindings/rust/*",
+  "Cargo.toml",
+  "Cargo.lock",
+
+  # Node.js bindings
+  "bindings/node/*",
+  "binding.gyp",
+  "package.json",
+  "package-lock.json",
+
+  # Python bindings
+  "bindings/python/**",
+  "setup.py",
+  "pyproject.toml",
+
+  # Go bindings
+  "bindings/go/*",
+  "go.mod",
+  "go.sum",
+
+  # Swift bindings
+  "bindings/swift/**",
+  "Package.swift",
+  "Package.resolved",
+
+  # Zig bindings
+  "bindings/zig/*",
+  "build.zig",
+  "build.zig.zon",
+
+  # Java bindings
+  "pom.xml",
+  "bindings/java/**",
+]
+SPDX-FileCopyrightText = ["2018 Max Brunsfeld", "2026 Rishvic Pushpakaran"]
+SPDX-License-Identifier = "MIT"
+
+# Generated source files
+[[annotations]]
+path = ["src/*.json", "src/parser.c"]
+SPDX-FileCopyrightText = "2026 Rishvic Pushpakaran"
+SPDX-License-Identifier = "MIT"
+
+# Files copied from tree-sitter-generate crate
+[[annotations]]
+path = ["src/tree_sitter/*"]
+SPDX-FileCopyrightText = "2018 Max Brunsfeld"
+SPDX-License-Identifier = "MIT"
+
+# Lock files
+[[annotations]]
+path = ["flake.lock", "go.sum", "pnpm-lock.yaml"]
+SPDX-FileCopyrightText = "2026 Rishvic Pushpakaran"
+SPDX-License-Identifier = "CC0-1.0"

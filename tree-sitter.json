@@ -1,0 +1,40 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "nvmrc",
+      "camelcase": "Nvmrc",
+      "title": "nvmrc",
+      "scope": "source.nvmrc",
+      "file-types": ["nvmrc"],
+      "injection-regex": "^nvmrc$",
+      "class-name": "TreeSitterNvmrc"
+    }
+  ],
+  "metadata": {
+    "version": "0.0.0",
+    "license": "MIT",
+    "description": "nvmrc grammar for tree-sitter",
+    "authors": [
+      {
+        "name": "Rishvic Pushpakaran",
+        "email": "rishvic@gmail.com",
+        "url": ""
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/rishvic/tree-sitter-nvmrc",
+      "funding": ""
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "java": false,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true,
+    "zig": false
+  }
+}
