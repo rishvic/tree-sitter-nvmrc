@@ -17,5 +17,6 @@ and this project adheres to
 ### Added
 
 - Add tree-sitter grammar for `.nvmrc` files
+- Add syntax highlighting queries
 
 [unreleased]: https://github.com/rishvic/tree-sitter-nvmrc/commits/main

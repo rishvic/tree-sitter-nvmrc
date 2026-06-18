@@ -1,0 +1,10 @@
+# SPDX-FileCopyrightText: 2026 Rishvic Pushpakaran
+#
+# SPDX-License-Identifier: MIT
+
+# use lts
+# <- comment
+
+21.2 # lts
+# <- string
+#    ^ comment

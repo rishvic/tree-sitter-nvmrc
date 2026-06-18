@@ -1,0 +1,19 @@
+# SPDX-FileCopyrightText: 2026 Rishvic Pushpakaran
+#
+# SPDX-License-Identifier: MIT
+
+node
+# <- string
+
+npm=10
+# <- property
+#  ^ operator
+#   ^ string
+
+a=b=c
+# <- property
+#^ operator
+# ^ string
+#  ^ !operator
+#  ^ string
+#   ^ string

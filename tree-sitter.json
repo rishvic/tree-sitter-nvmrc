@@ -7,6 +7,7 @@
       "title": "nvmrc",
       "scope": "source.nvmrc",
       "file-types": ["nvmrc"],
+      "highlights": ["queries/highlights.scm"],
       "injection-regex": "^nvmrc$",
       "class-name": "TreeSitterNvmrc"
     }
