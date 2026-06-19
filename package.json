@@ -7,7 +7,6 @@
     "type": "git",
     "url": "git+https://github.com/rishvic/tree-sitter-nvmrc.git"
   },
-  "funding": "",
   "license": "MIT",
   "author": {
     "name": "Rishvic Pushpakaran",

@@ -18,7 +18,9 @@ include = [
   "queries/*",
   "src/*",
   "tree-sitter.json",
+  "/CHANGELOG.md",
   "/LICENSE",
+  "/THIRD-PARTY-NOTICES.txt",
 ]
 
 [lib]

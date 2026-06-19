@@ -24,8 +24,7 @@
       }
     ],
     "links": {
-      "repository": "https://github.com/rishvic/tree-sitter-nvmrc",
-      "funding": ""
+      "repository": "https://github.com/rishvic/tree-sitter-nvmrc"
     }
   },
   "bindings": {

@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=62.4.0", "wheel"]
+requires = ["setuptools>=77.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -15,12 +15,12 @@ classifiers = [
 ]
 authors = [{ name = "Rishvic Pushpakaran", email = "rishvic@gmail.com" }]
 requires-python = ">=3.10"
-license.text = "MIT"
+license = "MIT"
+license-files = ["LICENSE", "THIRD-PARTY-NOTICES.txt"]
 readme = "README.md"
 
 [project.urls]
 Homepage = "https://github.com/rishvic/tree-sitter-nvmrc"
-Funding = ""
 
 [project.optional-dependencies]
 core = ["tree-sitter~=0.24"]
