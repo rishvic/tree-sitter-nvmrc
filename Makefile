@@ -1,6 +1,6 @@
 LANGUAGE_NAME := tree-sitter-nvmrc
 HOMEPAGE_URL := https://github.com/rishvic/tree-sitter-nvmrc
-VERSION := 0.0.0
+VERSION := 0.1.0
 
 # repository
 SRC_DIR := src

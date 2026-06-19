@@ -1,7 +1,7 @@
 [package]
 name = "tree-sitter-nvmrc"
 description = "nvmrc grammar for tree-sitter"
-version = "0.0.0"
+version = "0.1.0"
 authors = ["Rishvic Pushpakaran <rishvic@gmail.com>"]
 license = "MIT"
 readme = "README.md"
