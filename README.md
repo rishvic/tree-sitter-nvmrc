@@ -7,6 +7,7 @@ SPDX-License-Identifier: MIT
 # tree-sitter-nvmrc
 
 [![Checks and Tests](https://github.com/rishvic/tree-sitter-nvmrc/actions/workflows/checks.yaml/badge.svg?branch=main)](https://github.com/rishvic/tree-sitter-nvmrc/actions/workflows/checks.yaml)
+[![REUSE status](https://api.reuse.software/badge/github.com/rishvic/tree-sitter-nvmrc)](https://api.reuse.software/info/github.com/rishvic/tree-sitter-nvmrc)
 
 [nvmrc](https://github.com/nvm-sh/nvm) grammar for
 [tree-sitter](https://tree-sitter.github.io/tree-sitter/).
