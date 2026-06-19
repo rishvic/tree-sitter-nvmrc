@@ -26,8 +26,8 @@
           default = pkgs.mkShell {
             buildInputs = with pkgs; [
               nixfmt-tree
-              nodejs_24
-              pnpm
+              nodejs_22
+              python314
               reuse
             ];
           };

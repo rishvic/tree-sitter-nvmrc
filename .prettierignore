@@ -46,7 +46,3 @@ build.zig.zon
 # Java bindings
 pom.xml
 bindings/java/**
-
-# Lock files
-pnpm-lock.yaml
-go.sum
