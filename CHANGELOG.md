@@ -14,9 +14,12 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-06-20
+
 ### Fixed
 
-- Use `node-gyp` 13 so Windows prebuilds detect Visual Studio 2026.
+- Use `node-gyp` 13 so Windows prebuilds detect Visual Studio 2026
+  ([`4cff223`](https://github.com/rishvic/tree-sitter-nvmrc/commit/4cff223))
 
 ## [0.1.0] - 2026-06-19
 
@@ -29,5 +32,6 @@ and this project adheres to
 - Add syntax highlighting queries
   ([`0006898`](https://github.com/rishvic/tree-sitter-nvmrc/commit/0006898))
 
-[unreleased]: https://github.com/rishvic/tree-sitter-nvmrc/compare/v0.1.0...HEAD
+[unreleased]: https://github.com/rishvic/tree-sitter-nvmrc/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/rishvic/tree-sitter-nvmrc/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/rishvic/tree-sitter-nvmrc/releases/tag/v0.1.0
