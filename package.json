@@ -42,6 +42,7 @@
     "eslint": "^10.5.0",
     "eslint-config-prettier": "^10.1.8",
     "globals": "^17.6.0",
+    "node-gyp": "^13.0.0",
     "prebuildify": "^6.0.1",
     "prettier": "3.8.4",
     "prettier-plugin-toml": "^2.0.6",
@@ -65,5 +66,10 @@
     "start": "tree-sitter playground",
     "test": "node --test bindings/node/*_test.js"
   },
-  "packageManager": "npm@10.9.8+sha512.7d8c1be8e0d298792aac9410682c58dccda53dffe6a600bb8a4d074b3cc8c06e421ad69b469e1b36a8a46adbc2a13e366f920d412aae7551f447bc95982f6156"
+  "devEngines": {
+    "packageManager": {
+      "name": "npm",
+      "version": "10.9.8+sha512.7d8c1be8e0d298792aac9410682c58dccda53dffe6a600bb8a4d074b3cc8c06e421ad69b469e1b36a8a46adbc2a13e366f920d412aae7551f447bc95982f6156"
+    }
+  }
 }

@@ -14,6 +14,10 @@ and this project adheres to
 
 ## [Unreleased]
 
+### Fixed
+
+- Use `node-gyp` 13 so Windows prebuilds detect Visual Studio 2026.
+
 ## [0.1.0] - 2026-06-19
 
 ### Added
